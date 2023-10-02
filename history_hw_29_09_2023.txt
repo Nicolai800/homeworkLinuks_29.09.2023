@@ -1,0 +1,49 @@
+   0 cd /home
+   1 mkdir animals
+   2 mkdir /home/animals
+   3 ls
+   4 cd /home/animals
+   5 mkdir dogs
+   6 mkdir cats
+   7 mkdir fish
+   8 ls
+   9 touch /home/animals/dogs/pluto.txt
+  10 touch /home/animals/cats/garfield.txt
+  11 touch /home/animals/fish/nemo.txt
+  12 tree /home/animals
+  13 mkdir -p /home/planets
+  14 tree /home
+  15 touch /opt/Mercury.txt
+  16 touch /opt/Venus.txt
+  17 touch /opt/Mars.txt
+  18 touch /opt/Jupiter.txt
+  19 tree /opt
+  20 mv /opt/Mercuty.txt /home/planets
+  21 mv /opt/Mercury.txt /home/planets/
+  22 mv /opt/Venus.txt /home/planets
+  23 mv /opt/Mars.txt /home/planets 
+  24 mv /opt/Jupiter.txt /home/planets  
+  25 tree /home
+  26 tree /opt
+  27 touch /tmp/adam.txt
+  28 cp /tmp/adam.txt /home/humans
+  29 tree home
+  30 tree /home
+  31 cp /tmp/adam.txt /home/humans
+  32 tree /home
+  33 cp /tmp/adam.txt /home/humans/adam.txt
+  34 ls /home/humans
+  35 tree /home/humans
+  36 cd /home/humans
+  37 rm /home/humans
+  38 tree /home
+  39 mkdir /home/humans
+  40 cp /tmp/adam.txt /home/humans
+  41 tree /home
+  42 touch /tmp/evA.txt
+  43 cp /tmp/evA.txt /opt/eve.txt
+  44 tree /opt
+  45 mv /opt/eve.txt /home/humans
+  46 tree /home
+  47 history
+  48 history > history_hw_29_09_2023.txt
